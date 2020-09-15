@@ -1,0 +1,42 @@
+1.  Doesn't have idea of time
+  - give each cell a negative reward?
+  - give each turn/u-turn a negative reward?
+  - add feature: total_number_newly_explored_given_steps (fewer steps > explore cells directly)
+
+
+CODE:
+
+if name = main:
+
+discount
+
+epsilon - training rate (increase it?)
+	10% of the time, it will choose a random action (not best action)
+
+alpha - learning rate (
+
+speed 
+
+
+
+
+for episide 1 to 19,
+Training 10% random
+
+for episode 20,
+Test with 0% epsilon
+
+
+
+
+Sample Arenas
+error.txt creates 
+
+
+pause_callback - move when press key
+
+null display - move faster
+
+
+closest_unexplored = number of cells to next unexplored cell
+closest_unexplored_inverse = 
